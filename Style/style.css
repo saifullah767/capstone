@@ -89,7 +89,7 @@
   }
 
   .Landing_Page {
-    background-image: url("./images/mobile/home-background.jpg");
+    background-image: url("../images/mobile/home-background.jpg");
     background-repeat: no-repeat;
     background-size: auto;
     padding: 1px 10px 10px 100px;
@@ -102,7 +102,7 @@
   }
 
   .Landing_Page h1 {
-    background-image: url("./images/mobile/heading-background.jpg");
+    background-image: url("../images/mobile/heading-background.jpg");
     -webkit-background-clip: text;
     background-repeat: round;
     color: transparent;
@@ -142,7 +142,7 @@
   }
 
   .program-info-wraper {
-    background-image: url("./images/pattern_bg.png");
+    background-image: url("../images/pattern_bg.png");
     background-repeat: repeat;
     background-color: #272a32;
     height: auto;
@@ -435,7 +435,7 @@
   }
 
   .Landing_Page {
-    background-image: url("./images/mobile/home-background.jpg");
+    background-image: url("../images/mobile/home-background.jpg");
     background-repeat: no-repeat;
     background-size: auto;
     padding: 10px;
@@ -448,7 +448,7 @@
   }
 
   .Landing_Page h1 {
-    background-image: url("./images/mobile/heading-background.jpg");
+    background-image: url("../images/mobile/heading-background.jpg");
     -webkit-background-clip: text;
     background-repeat: round;
     color: transparent;
@@ -487,7 +487,7 @@
   }
 
   .program-info-wraper {
-    background-image: url("./images/pattern_bg.png");
+    background-image: url("../images/pattern_bg.png");
     background-repeat: repeat;
     background-color: #272a32;
     height: auto;
