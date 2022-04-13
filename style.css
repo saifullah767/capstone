@@ -35,6 +35,12 @@
     justify-content: end;
   }
 
+  .web-nav li {
+    margin: 10px 0 10px 10px;
+    display: flex;
+    align-items: center;
+  }
+
   .top-nav ul li {
     background-color: #333;
     display: flex;
@@ -67,12 +73,6 @@
     flex-direction: row;
   }
 
-  .web-nav li {
-    margin: 10px 0 10px 10px;
-    display: flex;
-    align-items: center;
-  }
-
   .web-nav a {
     margin: 0 10px 0 10px;
     color: #333;
@@ -103,9 +103,9 @@
 
   .Landing_Page h1 {
     background-image: url("./images/mobile/heading-background.jpg");
+    background-clip: text;
     -webkit-background-clip: text;
     background-repeat: round;
-    background-clip: text;
     color: transparent;
     margin: 0;
     font-size: 2.5rem;
@@ -121,7 +121,6 @@
     flex-direction: column;
     font-weight: 700;
     text-align: left;
-    margin-bottom: 4px;
     letter-spacing: 0;
     color: #575757;
     margin-bottom: 100px;
@@ -241,13 +240,15 @@
   }
 
   footer.dark_footer div.content img {
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(5deg)
+    filter: 
+      invert(100%) sepia(100%) saturate(0%) hue-rotate(5deg)
       brightness(100%) contrast(100%);
   }
 
   .sponsors-wrap .content .sponsor-logos a img {
     width: 130px;
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(5deg)
+    filter:
+      invert(100%) sepia(100%) saturate(0%) hue-rotate(5deg)
       brightness(100%) contrast(100%);
   }
 
@@ -388,6 +389,10 @@
     display: none;
   }
 
+  .main-program i {
+    color: #575757;
+  }
+
   #hamburger i {
     font-size: 35px;
     color: rgb(145, 147, 148);
@@ -447,9 +452,9 @@
 
   .Landing_Page h1 {
     background-image: url("./images/mobile/heading-background.jpg");
+    background-clip: text;
     -webkit-background-clip: text;
     background-repeat: round;
-    background-clip: text;
     color: transparent;
     margin: 0;
     font-size: 2.5rem;
@@ -464,7 +469,6 @@
     font-weight: 700;
     display: inline-block;
     text-align: left;
-    margin-bottom: 4px;
     letter-spacing: 0;
     color: #575757;
     margin-bottom: 100px;
@@ -484,10 +488,6 @@
     font-size: 16px;
     display: inline-block;
     text-align: left;
-  }
-
-  .main-program i {
-    color: #575757;
   }
 
   .program-info-wraper {
@@ -610,7 +610,8 @@
 
   .sponsors-wrap .content .sponsor-logos a img {
     width: 130px;
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(5deg)
+    filter: 
+      invert(100%) sepia(100%) saturate(0%) hue-rotate(5deg)
       brightness(100%) contrast(100%);
   }
 
