@@ -121,6 +121,7 @@
     color: rgb(98, 104, 105);
     margin: 0 20px 0 20px;
     background-color: #fff;
+    border: #8d8282 ridge 1px;
     text-align: center;
     font-size: small;
   }
