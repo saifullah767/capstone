@@ -22,7 +22,7 @@ const data = {
       name: 'Yochai Benkler',
       picture: 'images/speakers/speaker_01.png',
       workplace: 'Professor at Harvard Law School',
-      description: `Focusing on a collaborative approach in a networked environment, he created the concept of`,
+      description: 'Focusing on a collaborative approach in a networked environment, he created the concept of',
     },
     {
       name: 'Jeon Gil-nam',

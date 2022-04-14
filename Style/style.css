@@ -98,7 +98,7 @@
   .hello {
     color: #ec5242;
     font-size: 2.5rem;
-    margin: 40px 10px 0px 6px;
+    margin: 40px 10px 0 6px;
   }
 
   .Landing_Page h1 {
@@ -158,7 +158,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 20px;
     color: #fff;
     height: auto;
     padding: 3rem;
@@ -292,14 +291,12 @@
   }
 
   footer.dark_footer div.content img {
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(5deg)
-      brightness(100%) contrast(100%);
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(5deg) brightness(100%) contrast(100%);
   }
 
   .sponsors-wrap .content .sponsor-logos a img {
     width: 130px;
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(5deg)
-      brightness(100%) contrast(100%);
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(5deg) brightness(100%) contrast(100%);
   }
 
   .speakers-wrap div.content {
@@ -322,7 +319,7 @@
     height: 294px;
     display: flex;
   }
-
+  
   .about-landing-wrap div.content .header-card img {
     margin: 20px;
   }
@@ -331,6 +328,11 @@
     border: 1px solid rgb(251, 251, 251);
     cursor: pointer;
     filter: hue-rotate(5deg) brightness(105%) contrast(105%);
+  }
+  
+  .last-footer-img img {
+    height: 50px;
+    width: 13rem;
   }
 
   .speakers-wrap div.content .speakers-list .speaker img {
@@ -468,11 +470,6 @@
     justify-content: center;
     align-items: center;
   }
-
-  .last-footer-img img {
-    height: 50px;
-    width: 13rem;
-  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -559,11 +556,7 @@
   .hello {
     color: rgb(243 67 0);
     font-size: 2.5rem;
-    margin: 40px 10px 0px 6px;
-  }
-
-  .more-link {
-    display: none;
+    margin: 40px 10px 0 6px;
   }
 
   .Landing_Page h1 {
@@ -696,6 +689,10 @@
     background: rgba(255, 255, 255, 0.1);
   }
 
+  .partner-div p {
+    gap: 10px;
+  }
+
   .program-info-wraper section .program-card p {
     margin: 4px;
   }
@@ -771,8 +768,12 @@
 
   .sponsors-wrap .content .sponsor-logos a img {
     width: 130px;
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(5deg)
-      brightness(100%) contrast(100%);
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(5deg) brightness(100%) contrast(100%);
+  }
+
+  .last-footer-img img {
+    height: 50px;
+    width: 13rem;
   }
 
   .speakers-wrap div.content .speakers-list .speaker img {
@@ -867,10 +868,6 @@
     justify-content: center;
   }
 
-  .partner-div p {
-    gap: 10px;
-  }
-
   .mozilla {
     color: #dfdfdf;
     font-weight: 700;
@@ -894,11 +891,6 @@
     gap: 75px;
     justify-content: center;
     align-items: center;
-  }
-
-  .last-footer-img img {
-    height: 50px;
-    width: 13rem;
   }
 
   .hide {
