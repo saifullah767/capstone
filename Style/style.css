@@ -102,10 +102,7 @@
   }
 
   .Landing_Page h1 {
-    background-image: url("../images/mobile/heading-background.jpg");
-    -webkit-background-clip: text;
-    background-repeat: unset;
-    color: transparent;
+    color: #ec5242;
     margin: 0;
     font-size: 3.5rem;
   }
@@ -171,7 +168,7 @@
     text-decoration: underline;
   }
 
-  .main-ul{
+  .main-ul {
     width: 90%;
   }
 
@@ -564,10 +561,7 @@
   }
 
   .Landing_Page h1 {
-    background-image: url("../images/mobile/heading-background.jpg");
-    -webkit-background-clip: text;
-    background-repeat: round;
-    color: transparent;
+    color: #ec5242;
     margin: 0;
     font-size: 2.5rem;
   }
