@@ -211,6 +211,10 @@
     height: 50px;
   }
 
+  .partner-section h2 {
+    color: #e1e1e1;
+  }
+
   .program-info-wraper section h2 {
     font-size: 24px;
   }
@@ -290,13 +294,20 @@
     display: table;
   }
 
+  .last-footer-img img {
+    height: 50px;
+    width: 13rem;
+  }
+
   footer.dark_footer div.content img {
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(5deg) brightness(100%) contrast(100%);
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(5deg)
+      brightness(100%) contrast(100%);
   }
 
   .sponsors-wrap .content .sponsor-logos a img {
     width: 130px;
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(5deg) brightness(100%) contrast(100%);
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(5deg)
+      brightness(100%) contrast(100%);
   }
 
   .speakers-wrap div.content {
@@ -319,7 +330,7 @@
     height: 294px;
     display: flex;
   }
-  
+
   .about-landing-wrap div.content .header-card img {
     margin: 20px;
   }
@@ -328,11 +339,6 @@
     border: 1px solid rgb(251, 251, 251);
     cursor: pointer;
     filter: hue-rotate(5deg) brightness(105%) contrast(105%);
-  }
-  
-  .last-footer-img img {
-    height: 50px;
-    width: 13rem;
   }
 
   .speakers-wrap div.content .speakers-list .speaker img {
@@ -427,10 +433,6 @@
     align-items: center;
     padding-top: 20px;
     height: auto;
-  }
-
-  .partner-section h2 {
-    color: #e1e1e1;
   }
 
   .partner-div {
@@ -762,18 +764,19 @@
     margin: 12px 0;
   }
 
+  .last-footer-img img {
+    height: 50px;
+    width: 13rem;
+  }
+
   .speakers-wrap div.content .more-btn img {
     margin-left: 8px;
   }
 
   .sponsors-wrap .content .sponsor-logos a img {
     width: 130px;
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(5deg) brightness(100%) contrast(100%);
-  }
-
-  .last-footer-img img {
-    height: 50px;
-    width: 13rem;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(5deg)
+      brightness(100%) contrast(100%);
   }
 
   .speakers-wrap div.content .speakers-list .speaker img {
