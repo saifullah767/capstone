@@ -187,6 +187,7 @@
     color: #575757;
     padding: 8px;
     border: 0;
+    border: #8d8282 ridge 1px;
     float: left;
     width: 70%;
     background: rgb(255 255 255 / 10%);
