@@ -91,7 +91,7 @@
   .Landing_Page {
     background-image: url("../images/mobile/home-background.jpg");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     padding: 1px 10px 10px 100px;
   }
 
@@ -570,6 +570,7 @@
 
   .message {
     color: rgb(98, 104, 105);
+    background-color: #fff;
   }
 
   .place {

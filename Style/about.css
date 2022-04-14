@@ -95,7 +95,7 @@
   .Landing_Page {
     background-image: url("../images/mobile/home-background.jpg");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     padding: 1px 50px 10px 50px;
     display: flex;
     flex-direction: column;
