@@ -300,14 +300,12 @@
   }
 
   footer.dark_footer div.content img {
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(5deg)
-      brightness(100%) contrast(100%);
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(5deg) brightness(100%) contrast(100%);
   }
 
   .sponsors-wrap .content .sponsor-logos a img {
     width: 130px;
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(5deg)
-      brightness(100%) contrast(100%);
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(5deg) brightness(100%) contrast(100%);
   }
 
   .speakers-wrap div.content {
@@ -775,8 +773,7 @@
 
   .sponsors-wrap .content .sponsor-logos a img {
     width: 130px;
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(5deg)
-      brightness(100%) contrast(100%);
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(5deg) brightness(100%) contrast(100%);
   }
 
   .speakers-wrap div.content .speakers-list .speaker img {
