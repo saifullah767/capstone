@@ -60,7 +60,7 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     margin: 10px;
   }
 
@@ -96,22 +96,26 @@
   }
 
   .hello {
-    color: rgb(112 105 101);
-    margin-top: 4rem;
-    font-size: 1.5rem;
+    color: #EC5242;
+    font-size: 2.5rem;
+    margin: 40px 10px 0px 6px;
   }
 
   .Landing_Page h1 {
     background-image: url("../images/mobile/heading-background.jpg");
     -webkit-background-clip: text;
-    background-repeat: round;
+    background-repeat: unset;
     color: transparent;
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
 
   .message {
     color: rgb(98, 104, 105);
+    background-color: #fff;
+    padding: 5px;
+    width: 35rem;
+    font-size: 0.7rem;
   }
 
   .place {
@@ -156,7 +160,58 @@
     align-items: center;
     padding-top: 20px;
     color: #fff;
-    height: auto;
+    height: auto;    
+    padding: 3rem;
+
+  }
+
+  .more-link {
+    display: block;
+    font-size: 1.125em;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  .main-ul ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    margin: 25px 0;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .main-ul ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff23;
+    width: 150px;
+    height: 180px;
+    padding: 5px 0;
+
+  }
+
+  .main-ul h3{
+    color: #ec5242;
+    font-family: "Cocogoose", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    align-items: center;
+  }
+
+  .main-ul p{
+    color: #fff;
+    font-size: 12px;
+  }
+
+  .main-ul img{
+    width: 50px;
+    height: 50px;
   }
 
   .program-info-wraper section h2 {
@@ -166,7 +221,7 @@
   .guide-bar {
     width: 53px;
     border-top: 1px solid #ef513c;
-    margin: 16px auto 54px;
+    margin: 16px auto 25px;
   }
 
   .program-info-wraper section .program-list {
@@ -267,6 +322,7 @@
     width: calc(50% - 10px);
     float: left;
     height: 294px;
+    display: flex;
   }
 
   .about-landing-wrap div.content .header-card img {
@@ -281,8 +337,8 @@
 
   .speakers-wrap div.content .speakers-list .speaker img {
     float: left;
-    width: 178px;
-    height: 214px;
+    width: 120px;
+    height: 120px;
     margin-right: 30px;
   }
 
@@ -355,8 +411,69 @@
     border-top: 1px solid #817674;
     width: 36px;
     margin: 10px;
-    position: relative;
-    left: 13rem;
+  }
+
+  .partner-section {
+    background-color: #333;
+    height: auto;
+    padding-bottom: 80px;
+    border-bottom: #e1e1e1 ridge 1px;
+  }
+
+  .partner-section section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    height: auto;
+  }
+
+  .partner-section h2 {
+    color: #e1e1e1;
+  }
+
+  .partner-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .partner-div p {
+    gap: 10px;
+  }
+
+  .mozilla {
+    color: #dfdfdf;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  .google {
+    color: #8d8282;
+    font-weight: 400;
+    font-size: 2rem;
+    margin: 10px 50px 10px 50px;
+  }
+
+  .naver {
+    color: #dfdfdf;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  .last-footer {
+    background-color: #fff;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    gap: 75px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .last-footer-img img {
+    height: 50px;
+    width: 13rem;
   }
 }
 
@@ -442,9 +559,13 @@
   }
 
   .hello {
-    color: rgb(112 105 101);
-    margin-top: 4rem;
-    font-size: 1.5rem;
+    color: rgb(243 67 0);
+    font-size: 2.5rem;
+    margin: 40px 10px 0px 6px;
+  }
+
+  .more-link {
+    display: none;
   }
 
   .Landing_Page h1 {
@@ -498,6 +619,44 @@
     font-weight: 400;
   }
 
+  .main-ul{
+    width: 90%;
+  }
+
+  .main-ul ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 50px;
+    padding: 0;
+  }
+
+  .main-ul h3{
+    color: #ec5242;
+    font-family: "Cocogoose", sans-serif;
+    font-weight: 50;
+    font-size: 15px;
+    align-items: baseline;
+  }
+
+  .main-ul ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff23;
+    width: 90%;
+    height: 70px;
+    padding: 0 25px;
+  }
+
+  .main-ul p{
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+    width: 150px;
+  }
+
   .program-info-wraper section {
     display: flex;
     flex-direction: column;
@@ -515,7 +674,7 @@
   .guide-bar {
     width: 53px;
     border-top: 1px solid #ef513c;
-    margin: 16px auto 54px;
+    margin: 16px auto 0;
   }
 
   .speaker-bar {
@@ -574,8 +733,12 @@
     color: #fff;
     font-size: 20px;
     border: 0;
-    padding: 37px 40px;
+    padding: 25px 10px;
     margin-top: 25px;
+  }
+
+  .join-button:hover{
+    background-color: #e27264;
   }
 
   .speakers-wrap {
@@ -677,6 +840,49 @@
     padding-bottom: 45px;
     color: white;
     height: auto;
+  }
+
+  .partner-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .partner-div p {
+    gap: 10px;
+  }
+
+  .mozilla {
+    color: #dfdfdf;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  .google {
+    color: #8d8282;
+    font-weight: 400;
+    font-size: 2rem;
+    margin: 10px 50px 10px 50px;
+  }
+
+  .naver {
+    color: #dfdfdf;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  .last-footer {
+    background-color: #fff;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    gap: 75px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .last-footer-img img {
+    height: 50px;
+    width: 13rem;
   }
 
   .hide {

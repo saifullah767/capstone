@@ -20,36 +20,35 @@ const data = {
   speakers: [
     {
       name: 'Yochai Benkler',
-      picture: 'images/mobile/array01.jpg',
+      picture: 'images/speakers/speaker_01.png',
       workplace: 'Professor at Harvard Law School',
-      description: `Focusing on a collaborative approach in a networked environment, he created the concept of
-                co-production based on sharing, such as open source software and Wikipedia.`,
+      description: `Focusing on a collaborative approach in a networked environment, he created the concept of`,
     },
     {
       name: 'Jeon Gil-nam',
-      picture: 'images/mobile/array02.jpg',
+      picture: 'images/speakers/speaker_02.png',
       workplace:
-        'Emeritus Professor, Korea Advanced Institute of Science and Technology (KAIST)',
+        'Emeritus Professor, Korea Advanced Institute',
       description:
-        'By developing Asias first Internet protocol network SDN and leading Koreas first private line Internet connection in 1990, it ushered in the era of the Internet in earnest.',
+        'By developing Asias first Internet protocol network SDN and leading Koreas first private line',
     },
     {
       name: 'Noh So-young',
-      picture: 'images/mobile/array03.jpg',
+      picture: 'images/speakers/speaker_03.png',
       workplace: 'Art Center Nabi Director, CC Korea Director',
       description:
-        'As the author of &lt;Digital Art Art of Our Time&gt;, he opened Art Center Nabi, Koreas first digital art institution in 2000, and is currently serving.',
+        'As the author of &lt;Digital Art Art of Our Time&gt;, he opened Art Center Nabi, Koreas first digital',
     },
     {
       name: 'Julia Leda',
-      picture: 'images/mobile/array04.jpg',
+      picture: 'images/speakers/speaker_04.png',
       workplace: 'Head of the Young Pirates of Europe',
       description:
-        'European integration and online youth participation in politics and democracy are major concerns, and a report has been published that will potentially affect the revision of the EUs copyright law in July.',
+        'European integration and online youth participation in politics and democracy are major concerns',
     },
     {
       name: 'Layla Tretikov',
-      picture: 'images/mobile/array05.jpg',
+      picture: 'images/speakers/speaker_05.png',
       workplace: 'Secretary General of the Wikimedia Foundation',
       description:
         'Layla Tretikov is the general secretary of the Wikimedia Foundation, a non-profit organization that runs Wikipedia.',
@@ -57,7 +56,7 @@ const data = {
 
     {
       name: 'Ryan Merkley',
-      picture: 'images/mobile/array06.jpg',
+      picture: 'images/speakers/speaker_06.png',
       workplace: 'Creative Commons CEO, Former Mozilla Foundation COO',
       description:
         'He has been active in open movements such as open government and open source.',
@@ -78,7 +77,9 @@ window.onload = () => {
   }
   speakersToShow.reverse().forEach((speaker) => {
     const speakerHTML = `<article class='speaker'>
+    <div>
                             <img src=${speaker.picture} alt='${speaker.name}'/>
+                            </div>
                             <div class='desc'>
                                 <p href='#' class='speaker-name'>${speaker.name}</p>
                                 <p href='#' class='speaker-job'> <i> ${speaker.workplace} </i> </p>
@@ -99,7 +100,9 @@ window.addEventListener('resize', () => {
   }
   speakersToShow.forEach((speaker) => {
     const speakerHTML = `<article class='speaker clearfix'>
+    <div>
                                 <img src=${speaker.picture} alt='${speaker.name}'/>
+                                </div>
                                 <div class='desc'>
                                     <p href='#' class='speaker-name'>${speaker.name}</p>
                                     <p href='#' class='speaker-job'> <i> ${speaker.workplace} </i> </p>
@@ -115,7 +118,9 @@ morebtn.addEventListener('click', () => {
   speakersList.innerHTML = '';
   speakers.reverse().forEach((speaker) => {
     const speakerHTML = `<article class='speaker clearfix'>
+    <div>
                                   <img src=${speaker.picture} alt='${speaker.name}'/>
+                                  </div>
                                   <div class='desc'>
                                       <p href='#' class='speaker-name'>${speaker.name}</p>
                                       <p href='#' class='speaker-job'> <i> ${speaker.workplace} </i> </p>
