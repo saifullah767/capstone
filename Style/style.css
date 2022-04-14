@@ -635,7 +635,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: #ffffff23;
-    width: 90%;
+    min-width: 330px;
     height: 70px;
     padding: 0 25px;
   }
