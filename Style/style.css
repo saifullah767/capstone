@@ -171,6 +171,10 @@
     text-decoration: underline;
   }
 
+  .main-ul{
+    width: 90%;
+  }
+
   .main-ul ul {
     display: flex;
     flex-direction: row;
@@ -281,7 +285,7 @@
 
   .speakers-wrap {
     height: auto;
-    padding: 3rem;
+    padding: 0 15rem;
   }
 
   .b-bottom {
