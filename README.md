@@ -6,7 +6,7 @@
 
 [Click here to visit](https://saifullah767.github.io/capstone/)
 
-
+[Video Preview](https://www.youtube.com/watch?v=HOmNwPcbLRM)
 
 
 ## Built With
